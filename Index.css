@@ -1,0 +1,192 @@
+.cabecera{
+    background-color: #ffff;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo{
+    width: 28px;
+    border-radius: 200px;
+    margin-left: 10px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+body{
+    margin: 0%;
+}
+.main{
+    
+    height: 100vh;
+}
+
+.home{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    margin-left: 10px;
+    padding: 13px 12px;
+    width: 75px;
+    border: none;
+    border-radius: 30px;
+    height: 49px;
+    font-weight: 600;
+}
+/* 
+#ocultarClick{
+    background-color: rgb(255, 255, 255);
+    max-width: 140px; tamaño máximo del contenedor
+    margin-top: 16px; margen superior
+    padding: 5px!important; espacio interno del contenedor
+    border-radius: 5px; 
+    margin-left: 8%;
+    box-shadow: 0px -1px 11px -3px rgba(106,106,106,0.5); sombra y profundidad del contorno
+} */
+
+/* .ocultar{
+    background-color: blue; /*da un color de fondo*/
+    /*min-height:38px; /*establece un tamaño mínimo para el contenedor*/
+    /*border-radius: 5px; /*da un cortorno redondeado al container*/
+    /*cursor: pointer; /*Pone la manita del cursor del mouse*/
+   /* border: none; /*quita el borde por defecto del contenedor*/
+    /* width: 69.25px; */
+   /* margin-left: 7px; /*margen izquierdo*/
+    /*display: flex!important; /*dar flexibilidad al container*/
+   /* justify-content: space-between!important; /*centra el contenido del contenedor*/
+   /* display: none; /*oculta por completo el contenedor*/
+   /* font-weight: 600!important; /*Da peso a la letra, el ancho o la hace más gorda*/
+/*} */
+
+/* option:hover{
+    border: solid 1px black;
+    padding-left: 8px;
+    border-radius: 8px;
+    background-color: gray;
+    
+}
+
+option:hover>h6{
+    color: black;
+} */
+
+
+.selectt{
+    appearance: none;
+    margin-left: 18px;
+    border: none;      /*borrar borde por defecto*/
+    padding: 13px 0px!important;    /*margin interno*/
+    justify-content: center!important; /*centra el texto*/
+    font-weight: 600;      /*peso de fuente*/
+    width: 46px;      /*ancho*/
+    cursor: pointer;     
+}
+.flecha{
+    background-color: white;
+    margin-left: 3px;
+    padding: 0px 0px 0px 0px;
+    cursor: pointer;
+    margin-top: 100;
+    top: 50%;
+    height: 50%; /* para ponerlo a la mitad */ 
+    align-self: center;
+}
+.pbuton{
+    display: flex;
+    align-self: center;
+}
+.mainSelect{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center; /* para centrar la flecha */
+    margin: 0px;
+}
+input{
+    position: relative;
+    min-width:912px;
+    border: 1px solid black;
+}
+.lupa{
+    position: absolute;
+    background-color: brown;
+    padding: 12px 0px 12px;
+}
+.Buscar{
+    background-color: #e2e2e2;
+    border-radius: 30px;
+    border: none;
+    padding: 12px 10px 12px 42px ;
+}
+.Buscar:hover{ /* es para poner de otro color el fondo al pasar el mause */
+    background-color: #d0d0d0;
+}
+.bPadre{
+    position: relative;
+    margin-left: 16px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+/* iconos de la izquierda superior: */
+.campana{
+    padding: 10px;
+    margin-left: 9px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+}
+.mensaje{
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 3px;
+    background-color: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+.perfil{
+    padding: 10px 10px 10px 10px;
+    margin-left: 3px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+}
+.flecha2{
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    height: 50%;
+    align-self: center;
+}
+.esconder:hover{ 
+    background-color: #dadada;
+}
+.opciones{
+    position: relative;
+    margin-left: 0px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+.grid-item {
+    width: 230px;
+    /* height: 200px;
+    object-fit: cover; */
+    margin-bottom: 40px;
+    border-radius: 15px;
+    cursor: zoom-in;
+    background-color: lightgray;
+  }
+  
+  .grid-item:hover {
+    filter: opacity(0.9);
+  }
+
+
